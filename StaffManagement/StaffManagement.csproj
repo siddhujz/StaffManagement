@@ -53,9 +53,25 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="EmployeeReports.xaml.cs">
+      <DependentUpon>EmployeeReports.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MonthlyQualitivity.xaml.cs">
+      <DependentUpon>MonthlyQualitivity.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PerformanceReport.xaml.cs">
+      <DependentUpon>PerformanceReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QATrending.xaml.cs">
+      <DependentUpon>QATrending.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StaffManagementHome.xaml.cs">
       <DependentUpon>StaffManagementHome.xaml</DependentUpon>
     </Compile>
+    <Page Include="EmployeeReports.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -68,6 +84,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MonthlyQualitivity.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PerformanceReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="QATrending.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="StaffManagementHome.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

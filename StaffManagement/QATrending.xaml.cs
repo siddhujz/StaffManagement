@@ -16,20 +16,13 @@ using System.Windows.Shapes;
 namespace StaffManagement
 {
     /// <summary>
-    /// Interaction logic for StaffManagementHome.xaml
+    /// Interaction logic for QATrending.xaml
     /// </summary>
-    public partial class StaffManagementHome : Page
+    public partial class QATrending : Page
     {
-        public StaffManagementHome()
+        public QATrending()
         {
             InitializeComponent();
-        }
-
-        private void Employee_Reports_Button_Click(object sender, RoutedEventArgs e)
-        {
-            // View Employee Reports
-            EmployeeReports employeeReports = new EmployeeReports();
-            this.NavigationService.Navigate(employeeReports);
         }
     }
 }

@@ -8,6 +8,32 @@
 	Title="StaffManagement Home" Margin="10">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Menu IsMainMenu="True" Grid.ColumnSpan="2" Grid.Row="0">
+            <!--<MenuItem Header="Employee View" />
+            <MenuItem Header="Units" />
+            <MenuItem Header="Change Log" />
+            <MenuItem Header="Employee Reports" />
+            <MenuItem Header="QA" />
+            <MenuItem Header="Productivity" />
+            <MenuItem Header="Qualitivity" />
+            <MenuItem Header="Entry" />
+            <MenuItem Header="Awards" />
+            <MenuItem Header="PIP/Discipline" />
+            <MenuItem Header="AR" />
+            <MenuItem Header="Points" />
+            <MenuItem Header="Maintenance" />-->
+        </Menu>
+        <Button Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Style="{StaticResource buttonStyle}" Click="Employee_Reports_Button_Click">Generate Reports</Button>
+
     </Grid>
 </Page>
