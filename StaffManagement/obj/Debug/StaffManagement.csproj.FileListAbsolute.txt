@@ -1,0 +1,15 @@
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\bin\Debug\StaffManagement.exe.config
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\obj\Debug\StaffManagement.csprojResolveAssemblyReference.cache
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\obj\Debug\MainWindow.baml
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\obj\Debug\StaffManagementHome.baml
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\obj\Debug\MainWindow.g.cs
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\obj\Debug\StaffManagementHome.g.cs
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\obj\Debug\App.g.cs
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\obj\Debug\StaffManagement_MarkupCompile.cache
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\obj\Debug\StaffManagement.g.resources
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\obj\Debug\StaffManagement.Properties.Resources.resources
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\obj\Debug\StaffManagement.csproj.GenerateResource.Cache
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\bin\Debug\StaffManagement.exe
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\bin\Debug\StaffManagement.pdb
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\obj\Debug\StaffManagement.exe
+c:\users\skodali\documents\visual studio 2013\Projects\StaffManagement\StaffManagement\obj\Debug\StaffManagement.pdb
