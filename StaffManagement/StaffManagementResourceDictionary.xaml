@@ -1,6 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    
+
     <!-- Grid style -->
     <Style x:Key="gridStyle" TargetType="{x:Type Grid}">
         <Setter Property="Background" Value="#f5f6f7" />
@@ -54,5 +54,5 @@
             </Setter.Value>
         </Setter>
     </Style>
-    
+
 </ResourceDictionary>
