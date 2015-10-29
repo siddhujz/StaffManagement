@@ -7,7 +7,7 @@
       d:DesignHeight="300" d:DesignWidth="300"
 	Title="Employee Reports">
 
-    <Grid>
+    <Grid Style="{StaticResource gridStyle}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />
@@ -18,8 +18,10 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <Button Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Style="{StaticResource buttonStyle}" Click="Performance_Report_Button_Click">Performance Report</Button>
-        <Button Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Style="{StaticResource buttonStyle}" Click="QA_Trending_Button_Click">QA Trending</Button>
-        <Button Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" Style="{StaticResource buttonStyle}" Click="Monthly_Qualitivity_Button_Click">Monthly Qualitivity</Button>
+        <Button Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Style="{StaticResource blueButtonStyle}" Click="Performance_Report_Button_Click">Performance Report</Button>
+        <Button Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Style="{StaticResource blueButtonStyle}" Click="QA_Trending_Button_Click">QA Trending</Button>
+        <Button Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" Style="{StaticResource blueButtonStyle}" Click="Monthly_Qualitivity_Button_Click">Monthly Qualitivity</Button>
+
     </Grid>
+
 </Page>

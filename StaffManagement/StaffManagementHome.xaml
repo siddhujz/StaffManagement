@@ -7,7 +7,7 @@
       d:DesignHeight="300" d:DesignWidth="300"
 	Title="StaffManagement Home" Margin="10">
 
-    <Grid>
+    <Grid Style="{StaticResource gridStyle}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />
@@ -33,7 +33,7 @@
             <MenuItem Header="Points" />
             <MenuItem Header="Maintenance" />-->
         </Menu>
-        <Button Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Style="{StaticResource buttonStyle}" Click="Employee_Reports_Button_Click">Generate Reports</Button>
+        <Button Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Style="{StaticResource blueButtonStyle}" Click="Employee_Reports_Button_Click">Generate Reports</Button>
 
     </Grid>
 </Page>
