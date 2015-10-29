@@ -7,7 +7,29 @@
       d:DesignHeight="300" d:DesignWidth="300"
 	Title="Employee Reports > Monthly Qualitivity">
 
-    <Grid>
-        
+    <Grid Style="{StaticResource gridStyle}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Style="{StaticResource labelStyleRight}">Month</Label>
+        <TextBox Grid.Row="0" Grid.Column="1" Style="{StaticResource textBoxStyle}" />
+
+        <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource labelStyleRight}">Supervisor</Label>
+        <TextBox Grid.Row="1" Grid.Column="1" Style="{StaticResource textBoxStyle}" />
+
+        <Label Grid.Row="2" Grid.Column="0" Style="{StaticResource labelStyleRight}">Units</Label>
+
+        <Button x:Name="btnGenerate" Grid.Row="3" Grid.Column="0" Content="Generate" Style="{StaticResource greenButtonStyle}" />
+        <Button x:Name="btnCancel" Grid.Row="3" Grid.Column="1" Content="Cancel" Style="{StaticResource redButtonStyle}" />
     </Grid>
 </Page>
