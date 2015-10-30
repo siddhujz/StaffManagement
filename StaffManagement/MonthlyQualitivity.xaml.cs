@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,5 +25,26 @@ namespace StaffManagement
         {
             InitializeComponent();
         }
+
+        private void genarateMonthlyQalitivity(object sender, EventArgs e)
+        {
+        /*    String connectionString = null;
+            SqlConnection sqlConnection;
+
+            //connection String for sql server is "Server = myServerAddress; Database = myDataBase; Trusted_Connection = True"
+            connectionString = "Server=HC-sql7;Database=REVINT;Trusted_Connection=True;";
+            
+            sqlConnection = new SqlConnection(connectionString);
+            try
+            {
+                sqlConnection.Open();
+                MessageBox.Show ("Connection Open!");
+                sqlConnection.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Can not open connection!");
+            }
+        */}
     }
 }
