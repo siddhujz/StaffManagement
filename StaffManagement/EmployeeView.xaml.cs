@@ -16,24 +16,24 @@ using System.Windows.Shapes;
 namespace StaffManagement
 {
     /// <summary>
-    /// Interaction logic for PerformanceReport.xaml
+    /// Interaction logic for EmployeeView.xaml
     /// </summary>
-    public partial class PerformanceReport : Page
+    public partial class EmployeeView : Page
     {
-        public PerformanceReport()
+        public EmployeeView()
         {
             InitializeComponent();
         }
 
-        private void generate_Performance_Report(object sender, EventArgs e)
+        private void generate_Employee_View(object sender, EventArgs e)
         {
         }
 
         private void cancel_And_Go_Back(object sender, RoutedEventArgs e)
         {
             // View Employee Reports
-            EmployeeReports employeeReports = new EmployeeReports();
-            this.NavigationService.Navigate(employeeReports);
+            StaffManagementHome staffManagementHome = new StaffManagementHome();
+            this.NavigationService.Navigate(staffManagementHome);
         }
     }
 }

@@ -1,9 +1,18 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
+    <!-- Main Window style -->
+    <Style x:Key="mainWindowStyle" TargetType="{x:Type NavigationWindow}">
+        <Setter Property="Background" Value="#f5f6f7" />
+        <Setter Property="Margin" Value="10" />
+    </Style>
+
     <!-- Grid style -->
     <Style x:Key="gridStyle" TargetType="{x:Type Grid}">
         <Setter Property="Background" Value="#f5f6f7" />
+        <Setter Property="Margin" Value="10" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
     </Style>
 
     <Style x:Key="labelStyleRight" TargetType="{x:Type Label}">
@@ -22,7 +31,7 @@
     <!-- Blue Button style -->
     <Style x:Key="blueButtonStyle" TargetType="{x:Type Button}">
         <Setter Property="Height" Value="25" />
-        <Setter Property="Margin" Value="0" />
+        <Setter Property="Margin" Value="5" />
         <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
         <Setter Property="Background" Value="#49B1E3"/>
         <Setter Property="BorderBrush" Value="#49B1E3"/>
@@ -71,7 +80,7 @@
     <!-- Green Button style -->
     <Style x:Key="greenButtonStyle" TargetType="{x:Type Button}">
         <Setter Property="Height" Value="25" />
-        <Setter Property="Margin" Value="0" />
+        <Setter Property="Margin" Value="5" />
         <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
         <Setter Property="Background" Value="#76B569"/>
         <Setter Property="BorderBrush" Value="#76B569"/>

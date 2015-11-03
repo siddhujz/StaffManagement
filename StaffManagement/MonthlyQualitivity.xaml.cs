@@ -26,7 +26,7 @@ namespace StaffManagement
             InitializeComponent();
         }
 
-        private void genarateMonthlyQalitivity(object sender, EventArgs e)
+        private void generate_Monthly_Qalitivity(object sender, EventArgs e)
         {
         /*    String connectionString = null;
             SqlConnection sqlConnection;
@@ -46,5 +46,12 @@ namespace StaffManagement
                 MessageBox.Show("Can not open connection!");
             }
         */}
+
+        private void cancel_And_Go_Back(object sender, RoutedEventArgs e)
+        {
+            // View Employee Reports
+            EmployeeReports employeeReports = new EmployeeReports();
+            this.NavigationService.Navigate(employeeReports);
+        }
     }
 }

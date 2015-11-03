@@ -1,5 +1,6 @@
-﻿<NavigationWindow x:Name="StaffManagement" WindowState="Maximized" x:Class="StaffManagement.MainWindow"
+﻿<NavigationWindow x:Name="StaffManagement" WindowStyle="ThreeDBorderWindow" x:Class="StaffManagement.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Style="{StaticResource mainWindowStyle}"
         Title="StaffManagement" Source="StaffManagementHome.xaml">
 </NavigationWindow>

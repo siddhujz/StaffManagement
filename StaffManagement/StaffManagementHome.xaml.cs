@@ -25,7 +25,14 @@ namespace StaffManagement
             InitializeComponent();
         }
 
-        private void Employee_Reports_Button_Click(object sender, RoutedEventArgs e)
+        private void employee_View_Button_Click(object sender, RoutedEventArgs e)
+        {
+            // Navigate the page to Employee View Form
+            EmployeeView employeeView = new EmployeeView();
+            this.NavigationService.Navigate(employeeView);
+        }
+
+        private void employee_Reports_Button_Click(object sender, RoutedEventArgs e)
         {
             // View Employee Reports
             EmployeeReports employeeReports = new EmployeeReports();

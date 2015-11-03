@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-	Title="StaffManagement Home" Margin="10">
+	Title="StaffManagement Home">
 
     <Grid Style="{StaticResource gridStyle}">
         <Grid.ColumnDefinitions>
@@ -15,6 +15,7 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
+            <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
 
@@ -33,7 +34,7 @@
             <MenuItem Header="Points" />
             <MenuItem Header="Maintenance" />-->
         </Menu>
-        <Button Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Style="{StaticResource blueButtonStyle}" Click="Employee_Reports_Button_Click">Generate Reports</Button>
-
+        <Button Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Style="{StaticResource blueButtonStyle}" Click="employee_View_Button_Click">Employee View</Button>
+        <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Style="{StaticResource blueButtonStyle}" Click="employee_Reports_Button_Click">Generate Reports</Button>
     </Grid>
 </Page>

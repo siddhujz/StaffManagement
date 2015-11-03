@@ -24,5 +24,16 @@ namespace StaffManagement
         {
             InitializeComponent();
         }
+
+        private void generate_QA_Trending(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void cancel_And_Go_Back(object sender, RoutedEventArgs e)
+        {
+            // View Employee Reports
+            EmployeeReports employeeReports = new EmployeeReports();
+            this.NavigationService.Navigate(employeeReports);
+        }
     }
 }

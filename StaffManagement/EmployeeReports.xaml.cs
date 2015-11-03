@@ -25,21 +25,21 @@ namespace StaffManagement
             InitializeComponent();
         }
 
-        private void Performance_Report_Button_Click(object sender, RoutedEventArgs e)
+        private void performance_Report_Button_Click(object sender, RoutedEventArgs e)
         {
             // View Employee Reports
             PerformanceReport performanceReport = new PerformanceReport();
             this.NavigationService.Navigate(performanceReport);
         }
 
-        private void QA_Trending_Button_Click(object sender, RoutedEventArgs e)
+        private void qa_Trending_Button_Click(object sender, RoutedEventArgs e)
         {
             // View Employee Reports
             QATrending qaTrending = new QATrending();
             this.NavigationService.Navigate(qaTrending);
         }
 
-        private void Monthly_Qualitivity_Button_Click(object sender, RoutedEventArgs e)
+        private void monthly_Qualitivity_Button_Click(object sender, RoutedEventArgs e)
         {
             // View Employee Reports
             MonthlyQualitivity monthlyQualitivity = new MonthlyQualitivity();
