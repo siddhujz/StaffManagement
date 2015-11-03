@@ -27,7 +27,12 @@
         <Setter Property="Width" Value="250" />
         <Setter Property="Margin" Value="0,0,0,10" />
     </Style>
-    
+
+    <Style x:Key="comboBoxStyle" TargetType="{x:Type ComboBox}">
+        <Setter Property="Width" Value="250" />
+        <Setter Property="Margin" Value="0,0,0,10" />
+    </Style>
+
     <!-- Blue Button style -->
     <Style x:Key="blueButtonStyle" TargetType="{x:Type Button}">
         <Setter Property="Height" Value="25" />

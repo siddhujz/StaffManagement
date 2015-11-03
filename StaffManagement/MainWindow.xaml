@@ -2,5 +2,5 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Style="{StaticResource mainWindowStyle}"
-        Title="StaffManagement" Source="StaffManagementHome.xaml">
+        Title="StaffManagement" Source="StaffManagementHome.xaml" Icon="StaffManagementIcon.png">
 </NavigationWindow>

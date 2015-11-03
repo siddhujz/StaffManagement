@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ComboBoxContents.cs" />
     <Compile Include="EmployeeReports.xaml.cs">
       <DependentUpon>EmployeeReports.xaml</DependentUpon>
     </Compile>
@@ -64,6 +65,7 @@
     <Compile Include="MonthlyQualitivity.xaml.cs">
       <DependentUpon>MonthlyQualitivity.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ObservableCollection.cs" />
     <Compile Include="PerformanceReport.xaml.cs">
       <DependentUpon>PerformanceReport.xaml</DependentUpon>
     </Compile>
@@ -140,6 +142,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="StaffManagementIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
